@@ -1,12 +1,3 @@
-{
-    "name": "select2",
-    "description": "Select2 is a jQuery based replacement for select boxes. It supports searching, remote data sets, and infinite scrolling of results.",
-    "main": [
-        "dist/js/select2.js",
-        "src/scss/core.scss"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "git@github.com:select2/select2.git"
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6201949dda82a6ffc8952e3b324afde8553b5538a136a2ff3ff55da8c7e7781b
+size 362

@@ -1,8 +1,3 @@
-{% capture callout %}
-#### Asynchronous methods and transitions
-
-All API methods are **asynchronous** and start a **transition**. They return to the caller as soon as the transition is started but **before it ends**. In addition, a method call on a **transitioning component will be ignored**.
-
-[See our JavaScript documentation for more information]({{ site.baseurl }}/docs/{{ site.docs_version }}/getting-started/javascript/).
-{% endcapture %}
-{% include callout.html content=callout type="danger" %}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5ff57b4cc4972742d311e5adbcf25b1a969886c066f7b414a031d8175e815f51
+size 503

@@ -1,3 +1,3 @@
-/*! Select2 4.0.3 | https://github.com/select2/select2/blob/master/LICENSE.md */
-
-(function(){if(jQuery&&jQuery.fn&&jQuery.fn.select2&&jQuery.fn.select2.amd)var e=jQuery.fn.select2.amd;return e.define("select2/i18n/fi",[],function(){return{inputTooLong:function(e){var t=e.input.length-e.maximum;return"Ole hyvä ja anna "+t+" merkkiä vähemmän"},inputTooShort:function(e){var t=e.minimum-e.input.length;return"Ole hyvä ja anna "+t+" merkkiä lisää"},loadingMore:function(){return"Ladataan lisää tuloksia…"},maximumSelected:function(e){return"Voit valita ainoastaan "+e.maximum+" kpl"},noResults:function(){return"Ei tuloksia"},searching:function(){}}}),{define:e.define,require:e.require}})();
+version https://git-lfs.github.com/spec/v1
+oid sha256:0aac8c0d7407b3382a8b41f3a0f334f83b4940654a007142c50abc2433bbcf16
+size 703

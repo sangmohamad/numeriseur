@@ -1,11 +1,3 @@
-Before opening:
-
-- [Search for duplicate or closed issues](https://github.com/twbs/bootstrap/issues?utf8=%E2%9C%93&q=is%3Aissue)
-- [Validate](https://html5.validator.nu/) and [lint](https://github.com/twbs/bootlint#in-the-browser) any HTML to avoid common problems
-- Read the [contributing guidelines](https://github.com/twbs/bootstrap/blob/master/CONTRIBUTING.md)
-
-Bug reports must include:
-
-- Operating system and version (Windows, macOS, Android, iOS, Win10 Mobile)
-- Browser and version (Chrome, Firefox, Safari, IE, MS Edge, Opera 15+, Android Browser)
-- [Reduced test case](https://css-tricks.com/reduced-test-cases/) and suggested fix using [CodePen](https://codepen.io/) or [JS Bin](https://jsbin.com/)
+version https://git-lfs.github.com/spec/v1
+oid sha256:db010dd8cfe07cab23d207459e13afd4e78d86e4c368ff2b648b78cdade6396c
+size 711

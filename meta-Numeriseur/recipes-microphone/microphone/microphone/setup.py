@@ -1,18 +1,3 @@
-import sys
-from setuptools import setup
-from Cython.Build import cythonize
-
-
-setup(
-    name = "microphone",
-    version = "0.1",
-    packages=["utils"],
-    author="Sanogo Mohamadou",
-    author_email = "sanogomohamad9@gmail.com",
-    license = "MIT",
-    keywords= "microphone",
-    ext_modules=cythonize(["utils/Audio_stream.pyx","utils/directives.pyx","utils/rtsp_packet.pyx","utils/rtp_packet.pyx","utils/message.pyx","utils/result_codes.pyx" ,"utils/Server.pyx"]),
-)
-
-
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:98719b0fae8cdae1a3e3d68eaa037c3912550d71ca2e318e8e08c8366bb58fa4
+size 476

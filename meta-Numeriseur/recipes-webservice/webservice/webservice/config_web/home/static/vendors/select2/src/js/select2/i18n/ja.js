@@ -1,36 +1,3 @@
-define(function () {
-  // Japanese
-  return {
-    errorLoading: function () {
-      return '結果が読み込まれませんでした';
-    },
-    inputTooLong: function (args) {
-      var overChars = args.input.length - args.maximum;
-
-      var message = overChars + ' 文字を削除してください';
-
-      return message;
-    },
-    inputTooShort: function (args) {
-      var remainingChars = args.minimum - args.input.length;
-
-      var message = '少なくとも ' + remainingChars + ' 文字を入力してください';
-
-      return message;
-    },
-    loadingMore: function () {
-      return '読み込み中…';
-    },
-    maximumSelected: function (args) {
-      var message = args.maximum + ' 件しか選択できません';
-
-      return message;
-    },
-    noResults: function () {
-      return '対象が見つかりません';
-    },
-    searching: function () {
-      return '検索しています…';
-    }
-  };
-});
+version https://git-lfs.github.com/spec/v1
+oid sha256:c6e09d8d3ede0319a2c3254abc1b35b579fc83eb32451bd69a0b9424e4663099
+size 942

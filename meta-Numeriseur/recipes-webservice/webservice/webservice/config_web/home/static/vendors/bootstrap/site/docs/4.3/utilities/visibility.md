@@ -1,34 +1,3 @@
----
-layout: docs
-title: Visibility
-description: Control the visibility, without modifying the display, of elements with visibility utilities.
-group: utilities
----
-
-Set the `visibility` of elements with our visibility utilities. These utility classes do not modify the `display` value at all and do not affect layout – `.invisible` elements still take up space in the page. Content will be hidden both visually and for assistive technology/screen reader users.
-
-Apply `.visible` or `.invisible` as needed.
-
-{% highlight html %}
-<div class="visible">...</div>
-<div class="invisible">...</div>
-{% endhighlight %}
-
-{% highlight scss %}
-// Class
-.visible {
-  visibility: visible !important;
-}
-.invisible {
-  visibility: hidden !important;
-}
-
-// Usage as a mixin
-// Warning: The `invisible()` mixin has been deprecated as of v4.3.0. It will be removed entirely in v5.
-.element {
-  @include invisible(visible);
-}
-.element {
-  @include invisible(hidden);
-}
-{% endhighlight %}
+version https://git-lfs.github.com/spec/v1
+oid sha256:cb529423b1e692f4899452f83a2fdf59db76244ad16a964cd42bfc88e2cabf12
+size 970

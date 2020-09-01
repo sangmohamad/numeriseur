@@ -1,26 +1,3 @@
-- name: Mark Otto
-  user: mdo
-
-- name: Jacob Thornton
-  user: fat
-
-- name: Chris Rebert
-  user: cvrebert
-
-- name: XhmikosR
-  user: xhmikosr
-
-- name: Patrick H. Lauke
-  user: patrickhlauke
-
-- name: Gleb Mazovetskiy
-  user: glebm
-
-- name: Johann-S
-  user: johann-s
-
-- name: Andres Galante
-  user: andresgalante
-
-- name: Martijn Cuppens
-  user: martijncuppens
+version https://git-lfs.github.com/spec/v1
+oid sha256:63519232dfe00c17f1b370ae07bcc8aef87c8d562ef1206257eafeffc85c5fee
+size 357

@@ -1,15 +1,3 @@
-{
-  "extends": [
-    "stylelint-config-twbs-bootstrap/scss"
-  ],
-  "rules": {
-    "property-blacklist": [
-      "border-radius",
-      "border-top-left-radius",
-      "border-top-right-radius",
-      "border-bottom-right-radius",
-      "border-bottom-left-radius",
-      "transition"
-    ]
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:82761d560527d1a65d1bef0ff54277c51b2d425eec2934b36307de34aa5c9a48
+size 296

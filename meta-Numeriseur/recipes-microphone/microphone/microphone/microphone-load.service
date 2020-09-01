@@ -1,15 +1,3 @@
-[Unit]
-Description=Numeriseur Systeme SEVAC
-After=multi-user.target
-
-[Service]
-
-Type=simple
-Restart=always
-RestartSec=1
-
-ExecStart=/usr/bin/python3  /usr/bin/main_microphone.py 
-
-
-[Install]
-WantedBy=multi-user.target
+version https://git-lfs.github.com/spec/v1
+oid sha256:b4888c9945513c13af593a867a9188a185e8492dcc11b2f300bf0f9272959c4d
+size 217

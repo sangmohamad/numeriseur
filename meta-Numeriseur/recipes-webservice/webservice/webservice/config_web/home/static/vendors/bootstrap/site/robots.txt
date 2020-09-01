@@ -1,9 +1,3 @@
----
----
-
-# www.robotstxt.org/
-
-# Allow crawling of all content
-User-agent: *
-Disallow:{% if jekyll.environment != "production" %} /{% endif %}
-Sitemap: {{ site.url }}/sitemap.xml
+version https://git-lfs.github.com/spec/v1
+oid sha256:d6ecaf17ae134b1f81d9e23dae7eb048c7e43f403a7bab9b3fad62462628abcd
+size 179

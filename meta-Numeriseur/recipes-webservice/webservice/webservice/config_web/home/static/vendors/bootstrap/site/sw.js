@@ -1,27 +1,3 @@
-// NOTICE!! DO NOT USE ANY OF THIS JAVASCRIPT
-// IT'S ALL JUST JUNK FOR OUR DOCS!
-// ++++++++++++++++++++++++++++++++++++++++++
-
-(function () {
-  'use strict'
-
-  if ('serviceWorker' in navigator) {
-    window.addEventListener('load', function () {
-      navigator.serviceWorker.getRegistrations().then(function (registrations) {
-        for (var registration of registrations) {
-          registration.unregister()
-            .then(function () {
-              return self.clients.matchAll()
-            })
-            .then(function (clients) {
-              clients.forEach(function (client) {
-                if (client.url && 'navigate' in client) {
-                  client.navigate(client.url)
-                }
-              })
-            })
-        }
-      })
-    })
-  }
-}())
+version https://git-lfs.github.com/spec/v1
+oid sha256:00c7a2c06c94f6937fb39a7d9f4aa8343e7a1e0d408f66a08a10ec57d1b2d4e7
+size 785

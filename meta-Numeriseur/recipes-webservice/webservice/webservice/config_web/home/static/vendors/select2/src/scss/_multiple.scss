@@ -1,35 +1,3 @@
-.select2-selection--multiple {
-  box-sizing: border-box;
-
-  cursor: pointer;
-  display: block;
-
-  min-height: 32px;
-
-  user-select: none;
-  -webkit-user-select: none;
-
-  .select2-selection__rendered {
-    display: inline-block;
-    overflow: hidden;
-    padding-left: 8px;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-  }
-}
-
-.select2-search--inline {
-  float: left;
-
-  .select2-search__field {
-    box-sizing: border-box;
-    border: none;
-    font-size: 100%;
-    margin-top: 5px;
-    padding: 0;
-
-    &::-webkit-search-cancel-button {
-      -webkit-appearance: none;
-    }
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b11596f0ad76f184d86225788638cd19d6592a0e0a1109dd363d2779d26ffe8b
+size 590

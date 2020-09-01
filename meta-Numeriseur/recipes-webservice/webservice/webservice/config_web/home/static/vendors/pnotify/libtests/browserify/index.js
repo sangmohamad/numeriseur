@@ -1,26 +1,3 @@
-
-// Not working? Did you `npm install` `npm run build` first?
-
-var $ = require("jquery");
-var PNotify = require("pnotify");
-
-$(function(){
-    $("#button1").click(function(){
-        new PNotify({
-            title: "Yay!",
-            text: "It works!"
-        });
-    });
-
-    $("#button12").click(function(){
-        require("pnotify.reference");
-
-        new PNotify({
-            title: "Yay!",
-            text: "It works!",
-            reference: {
-                put_thing: true
-            }
-        });
-    });
-});
+version https://git-lfs.github.com/spec/v1
+oid sha256:d7decf597de48d12387b9ace829c7711667fa898de6bc01ab404b9fe98dfb88a
+size 525

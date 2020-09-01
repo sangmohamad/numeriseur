@@ -1,27 +1,3 @@
-define(function () {
-  // Azerbaijani
-  return {
-    inputTooLong: function (args) {
-      var overChars = args.input.length - args.maximum;
-
-      return overChars + ' simvol silin';
-    },
-    inputTooShort: function (args) {
-      var remainingChars = args.minimum - args.input.length;
-
-      return remainingChars + ' simvol daxil edin';
-    },
-    loadingMore: function () {
-      return 'Daha çox nəticə yüklənir…';
-    },
-    maximumSelected: function (args) {
-      return 'Sadəcə ' + args.maximum + ' element seçə bilərsiniz';
-    },
-    noResults: function () {
-      return 'Nəticə tapılmadı';
-    },
-    searching: function () {
-      return 'Axtarılır…';
-    }
-  };
-});
+version https://git-lfs.github.com/spec/v1
+oid sha256:7ecb6296e00edb7f9fb58b197337790e0f70ac6f811fb0074b45e5aebd91577d
+size 703

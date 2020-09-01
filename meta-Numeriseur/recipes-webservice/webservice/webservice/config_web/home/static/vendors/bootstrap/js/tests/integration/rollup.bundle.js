@@ -1,20 +1,3 @@
-/* eslint-env node */
-
-const resolve = require('rollup-plugin-node-resolve')
-const commonjs = require('rollup-plugin-commonjs')
-const babel = require('rollup-plugin-babel')
-
-module.exports = {
-  input: 'js/tests/integration/bundle.js',
-  output: {
-    file: 'js/coverage/bundle.js',
-    format: 'iife'
-  },
-  plugins: [
-    resolve(),
-    commonjs(),
-    babel({
-      exclude: 'node_modules/**'
-    })
-  ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1c029fdce4b7c0e09eac3f55654fd2407984a5e39b0918c18db217deee8dc148
+size 409

@@ -1,4 +1,3 @@
-src/js/banner.*.js
-src/js/wrapper.*.js
-tests/vendor/*.js
-tests/helpers.js
+version https://git-lfs.github.com/spec/v1
+oid sha256:1c4d7196985c007a751dc4dc9af562310833d51f804468dfb3b1d9336f6c9e71
+size 74

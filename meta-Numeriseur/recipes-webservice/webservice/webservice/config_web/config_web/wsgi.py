@@ -1,16 +1,3 @@
-"""
-WSGI config for config_web project.
-
-It exposes the WSGI callable as a module-level variable named ``application``.
-
-For more information on this file, see
-https://docs.djangoproject.com/en/1.11/howto/deployment/wsgi/
-"""
-
-import os
-
-from django.core.wsgi import get_wsgi_application
-
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "config_web.settings")
-
-application = get_wsgi_application()
+version https://git-lfs.github.com/spec/v1
+oid sha256:4a4aef58c1c8e408d5544a3f02a26d914aa0b9de3bc9a63c4705d221834032fe
+size 398

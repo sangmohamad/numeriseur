@@ -1,20 +1,3 @@
-// Example starter JavaScript for disabling form submissions if there are invalid fields
-(function () {
-  'use strict'
-
-  window.addEventListener('load', function () {
-    // Fetch all the forms we want to apply custom Bootstrap validation styles to
-    var forms = document.getElementsByClassName('needs-validation')
-
-    // Loop over them and prevent submission
-    Array.prototype.filter.call(forms, function (form) {
-      form.addEventListener('submit', function (event) {
-        if (form.checkValidity() === false) {
-          event.preventDefault()
-          event.stopPropagation()
-        }
-        form.classList.add('was-validated')
-      }, false)
-    })
-  }, false)
-}())
+version https://git-lfs.github.com/spec/v1
+oid sha256:f28784550b4ee39fa17dd4415c2f2c8e6e3bf3e7f9d59880e208b79214e8506c
+size 685

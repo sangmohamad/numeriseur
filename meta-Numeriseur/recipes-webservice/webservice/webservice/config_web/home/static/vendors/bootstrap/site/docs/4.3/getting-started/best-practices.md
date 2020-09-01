@@ -1,21 +1,3 @@
----
-layout: docs
-title: Best practices
-description: Learn about some of the best practices we've gathered from years of working on and using Bootstrap.
-group: getting-started
----
-
-We've designed and developed Bootstrap to work in a number of environments. Here are some of the best practices we've gathered from years of working on and using it ourselves.
-
-{% capture callout %}
-**Heads up!** This copy is a work in progress.
-{% endcapture %}
-{% include callout.html content=callout type="info" %}
-
-### General outline
-
-- Working with CSS
-- Working with Sass files
-- Building new CSS components
-- Working with flexbox
-- Ask in [Slack](https://bootstrap-slack.herokuapp.com/)
+version https://git-lfs.github.com/spec/v1
+oid sha256:7e919f6366b9b9f475bb3767d04d5951452ca8017ce4f84663618d442cde21ff
+size 675

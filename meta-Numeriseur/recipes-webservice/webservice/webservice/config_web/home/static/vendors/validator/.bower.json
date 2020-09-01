@@ -1,14 +1,3 @@
-{
-  "name": "validator",
-  "homepage": "https://github.com/yairEO/validator",
-  "version": "3.3.5",
-  "_release": "3.3.5",
-  "_resolution": {
-    "type": "version",
-    "tag": "3.3.5",
-    "commit": "01a570d68fa748f87a6a90166f157a64225e9e4d"
-  },
-  "_source": "https://github.com/yairEO/validator.git",
-  "_target": "^3.3.5",
-  "_originalSource": "https://github.com/yairEO/validator.git"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5567498b0c561c7ba735dd5bf0946ed3d6c4413d23eb2d08eea0457fbb2de31d
+size 390

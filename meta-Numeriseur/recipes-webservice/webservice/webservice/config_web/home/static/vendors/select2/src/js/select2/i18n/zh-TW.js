@@ -1,33 +1,3 @@
-define(function () {
-  // Chinese (Traditional)
-  return {
-    inputTooLong: function (args) {
-      var overChars = args.input.length - args.maximum;
-
-      var message = '請刪掉' + overChars + '個字元';
-
-      return message;
-    },
-    inputTooShort: function (args) {
-      var remainingChars = args.minimum - args.input.length;
-
-      var message = '請再輸入' + remainingChars + '個字元';
-
-      return message;
-    },
-    loadingMore: function () {
-      return '載入中…';
-    },
-    maximumSelected: function (args) {
-      var message = '你只能選擇最多' + args.maximum + '項';
-
-      return message;
-    },
-    noResults: function () {
-      return '沒有找到相符的項目';
-    },
-    searching: function () {
-      return '搜尋中…';
-    }
-  };
-});
+version https://git-lfs.github.com/spec/v1
+oid sha256:4e48c18ae0b1ea3ac1c26a4a5ab1378a3e6edbdcd25ee2a2d85ea5424378f496
+size 794

@@ -1,3 +1,3 @@
-/*! Select2 4.0.3 | https://github.com/select2/select2/blob/master/LICENSE.md */
-
-(function(){if(jQuery&&jQuery.fn&&jQuery.fn.select2&&jQuery.fn.select2.amd)var e=jQuery.fn.select2.amd;return e.define("select2/i18n/id",[],function(){return{errorLoading:function(){return"Data tidak boleh diambil."},inputTooLong:function(e){var t=e.input.length-e.maximum;return"Hapuskan "+t+" huruf"},inputTooShort:function(e){var t=e.minimum-e.input.length;return"Masukkan "+t+" huruf lagi"},loadingMore:function(){return"Mengambil data…"},maximumSelected:function(e){return"Anda hanya dapat memilih "+e.maximum+" pilihan"},noResults:function(){return"Tidak ada data yang sesuai"},searching:function(){return"Mencari…"}}}),{define:e.define,require:e.require}})();
+version https://git-lfs.github.com/spec/v1
+oid sha256:e1c72eaf081e689392ce4f7b645a652768f851e3d6e3bfe6675e1f77597d9396
+size 752

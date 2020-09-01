@@ -1,6 +1,3 @@
-[*]
-indent_style = space
-end_of_line = lf
-
-[*.js]
-indent_size = 2
+version https://git-lfs.github.com/spec/v1
+oid sha256:e3a93639cfa888e12100a891cc992fce74ed52643232cfdc666cb11b86366905
+size 66

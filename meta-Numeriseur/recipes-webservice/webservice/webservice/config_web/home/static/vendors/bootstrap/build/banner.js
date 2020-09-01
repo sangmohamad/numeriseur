@@ -1,14 +1,3 @@
-'use strict'
-
-const pkg = require('../package.json')
-const year = new Date().getFullYear()
-
-function getBanner(pluginFilename) {
-  return `/*!
-  * Bootstrap${pluginFilename ? ` ${pluginFilename}` : ''} v${pkg.version} (${pkg.homepage})
-  * Copyright 2011-${year} ${pkg.author}
-  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
-  */`
-}
-
-module.exports = getBanner
+version https://git-lfs.github.com/spec/v1
+oid sha256:4884deb1eff9f9243cccce776cf52f96f676f994cd61600dd57bd627af618188
+size 392

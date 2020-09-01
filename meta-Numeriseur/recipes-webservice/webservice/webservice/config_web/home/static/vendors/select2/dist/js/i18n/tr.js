@@ -1,3 +1,3 @@
-/*! Select2 4.0.3 | https://github.com/select2/select2/blob/master/LICENSE.md */
-
-(function(){if(jQuery&&jQuery.fn&&jQuery.fn.select2&&jQuery.fn.select2.amd)var e=jQuery.fn.select2.amd;return e.define("select2/i18n/tr",[],function(){return{inputTooLong:function(e){var t=e.input.length-e.maximum,n=t+" karakter daha girmelisiniz";return n},inputTooShort:function(e){var t=e.minimum-e.input.length,n="En az "+t+" karakter daha girmelisiniz";return n},loadingMore:function(){return"Daha fazla…"},maximumSelected:function(e){var t="Sadece "+e.maximum+" seçim yapabilirsiniz";return t},noResults:function(){return"Sonuç bulunamadı"},searching:function(){return"Aranıyor…"}}}),{define:e.define,require:e.require}})();
+version https://git-lfs.github.com/spec/v1
+oid sha256:caabf97befbc786a70f6e6439341807d1d27c589d8763e6a7a09c51f14808cce
+size 720

@@ -1,24 +1,3 @@
-//
-// Docs color palette classes
-//
-
-@each $color, $value in $colors {
-  .swatch-#{$color} {
-    color: color-yiq($value);
-    background-color: #{$value};
-  }
-}
-
-@each $color, $value in $theme-colors {
-  .swatch-#{$color} {
-    color: color-yiq($value);
-    background-color: #{$value};
-  }
-}
-
-@each $color, $value in $grays {
-  .swatch-#{$color} {
-    color: color-yiq($value);
-    background-color: #{$value};
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9d7a8b8f867db3df39331c2961dfab55bae3432d9bb681253a5450df6f4aa252
+size 419

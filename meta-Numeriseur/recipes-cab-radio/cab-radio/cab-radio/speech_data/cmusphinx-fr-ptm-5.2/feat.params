@@ -1,11 +1,3 @@
--lowerf 130
--upperf 6800
--nfilt 25
--transform dct
--lifter 22
--feat 1s_c_d_dd
--svspec 0-12/13-25/26-38
--agc none
--cmn current
--varnorm no
--model ptm
+version https://git-lfs.github.com/spec/v1
+oid sha256:70c003b0bdfaab851d7253ccb1b3df5d7a0ac7c34e9c6fa8c419ea8bbedf2330
+size 148

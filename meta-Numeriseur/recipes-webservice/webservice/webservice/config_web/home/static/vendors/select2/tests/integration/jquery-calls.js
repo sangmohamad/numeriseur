@@ -1,30 +1,3 @@
-module('select2(val)');
-
-test('multiple elements with arguments works', function (assert) {
-  var $ = require('jquery');
-  require('jquery.select2');
-
-  var $first = $(
-    '<select>' +
-      '<option>1</option>' +
-      '<option>2</option>' +
-    '</select>'
-  );
-  var $second = $first.clone();
-
-  var $both = $first.add($second);
-  $both.select2();
-
-  $both.select2('val', '2');
-
-  assert.equal(
-    $first.val(),
-    '2',
-    'The call should change the value on the first element'
-  );
-  assert.equal(
-    $second.val(),
-    '2',
-    'The call should also change the value on the second element'
-  );
-});
+version https://git-lfs.github.com/spec/v1
+oid sha256:be6d1dc5dc5b738c4a99149d7e975d2a3bcbd0f3b6bdec75b6d15427454fc9e7
+size 609

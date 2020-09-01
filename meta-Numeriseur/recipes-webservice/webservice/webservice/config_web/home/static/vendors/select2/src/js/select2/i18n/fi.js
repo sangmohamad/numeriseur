@@ -1,27 +1,3 @@
-define(function () {
-  // Finnish
-  return {
-    inputTooLong: function (args) {
-      var overChars = args.input.length - args.maximum;
-
-      return 'Ole hyvä ja anna ' + overChars + ' merkkiä vähemmän';
-    },
-    inputTooShort: function (args) {
-      var remainingChars = args.minimum - args.input.length;
-
-      return 'Ole hyvä ja anna ' + remainingChars + ' merkkiä lisää';
-    },
-    loadingMore: function () {
-      return 'Ladataan lisää tuloksia…';
-    },
-    maximumSelected: function (args) {
-      return 'Voit valita ainoastaan ' + args.maximum + ' kpl';
-    },
-    noResults: function () {
-      return 'Ei tuloksia';
-    },
-    searching: function () {
-
-    }
-  };
-});
+version https://git-lfs.github.com/spec/v1
+oid sha256:ecd04add75f842d0ddc25f2341a0e7ea17d896bb4e56890698254248d4236b08
+size 699

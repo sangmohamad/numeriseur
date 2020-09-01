@@ -1,6 +1,3 @@
-{% capture callout %}
-##### Conveying meaning to assistive technologies
-
-Using color to add meaning only provides a visual indication, which will not be conveyed to users of assistive technologies – such as screen readers. Ensure that information denoted by the color is either obvious from the content itself (e.g. the visible text), or is included through alternative means, such as additional text hidden with the `.sr-only` class.
-{% endcapture %}
-{% include callout.html content=callout type="warning" %}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8b6cca14a8434ce641ae2784ebf8e5a4222d80654eca122a58306ae7152c0f55
+size 512

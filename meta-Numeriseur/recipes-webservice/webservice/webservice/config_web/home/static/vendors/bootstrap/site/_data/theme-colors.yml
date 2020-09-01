@@ -1,16 +1,3 @@
-- name: primary
-  hex: "#007bff"
-- name: secondary
-  hex: "#868e96"
-- name: success
-  hex: "#28a745"
-- name: danger
-  hex: "#dc3545"
-- name: warning
-  hex: "#ffc107"
-- name: info
-  hex: "#17a2b8"
-- name: light
-  hex: "#f8f9fa"
-- name: dark
-  hex: "#343a40"
+version https://git-lfs.github.com/spec/v1
+oid sha256:fb1beb94f208467dfd21668337f0155333899f98b0a974879e26a73119730a50
+size 257

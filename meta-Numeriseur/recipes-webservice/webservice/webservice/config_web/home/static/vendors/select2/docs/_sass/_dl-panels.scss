@@ -1,24 +1,3 @@
-.s2-docs-panels {
-    dt, dd {
-        border: 1px solid $panel-default-border;
-    }
-
-    dt {
-        background-color: $panel-default-heading-bg;
-        border-top-left-radius: $panel-border-radius;
-        border-top-right-radius: $panel-border-radius;
-        padding: 5px 7.5px;
-    }
-
-    dd {
-        background-color: $panel-bg;
-        border-bottom-left-radius: $panel-border-radius;
-        border-bottom-right-radius: $panel-border-radius;
-        margin-bottom: 0.75em;
-        padding: 7.5px;
-    }
-
-    dt + dd {
-        border-top: none;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9d39ed4c96cce2734cd21e9dc9cb54d093c8b4594f199b1c0c51323f38f3971b
+size 563

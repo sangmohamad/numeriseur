@@ -1,22 +1,3 @@
-{
-  "name": "font-awesome",
-  "description": "Font Awesome",
-  "keywords": [],
-  "homepage": "http://fontawesome.io",
-  "dependencies": {},
-  "devDependencies": {},
-  "license": ["OFL-1.1", "MIT", "CC-BY-3.0"],
-  "main": [
-    "less/font-awesome.less",
-    "scss/font-awesome.scss"
-  ],
-  "ignore": [
-    "*/.*",
-    "*.json",
-    "src",
-    "*.yml",
-    "Gemfile",
-    "Gemfile.lock",
-    "*.md"
-  ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:489ddc6c91ad92d3c264777a32ab4b4bae37d9ffbab7e06a7d1e347b0fe40f9c
+size 403

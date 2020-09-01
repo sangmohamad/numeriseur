@@ -1,15 +1,3 @@
----
-name: Feature request
-about: Suggest an idea for a new feature in Bootstrap.
-
----
-
-Before opening:
-
-- [Search for duplicate or closed issues](https://github.com/twbs/bootstrap/issues?utf8=%E2%9C%93&q=is%3Aissue)
-- Read the [contributing guidelines](https://github.com/twbs/bootstrap/blob/master/CONTRIBUTING.md)
-
-Feature requests must include:
-
-- As much detail as possible for what we should add and why it's important to Bootstrap
-- Relevant links to prior art, screenshots, or live demos whenever possible
+version https://git-lfs.github.com/spec/v1
+oid sha256:1a8c468b03287ba61521156935acf73aecc8b2e597e0e1bdf24df9868725a7d1
+size 513

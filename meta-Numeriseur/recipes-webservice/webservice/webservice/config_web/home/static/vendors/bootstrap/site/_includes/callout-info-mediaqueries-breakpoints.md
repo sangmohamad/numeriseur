@@ -1,4 +1,3 @@
-{% capture callout %}
-Note that since browsers do not currently support [range context queries](https://www.w3.org/TR/mediaqueries-4/#range-context), we work around the limitations of [`min-` and `max-` prefixes](https://www.w3.org/TR/mediaqueries-4/#mq-min-max) and viewports with fractional widths (which can occur under certain conditions on high-dpi devices, for instance) by using values with higher precision for these comparisons.
-{% endcapture %}
-{% include callout.html content=callout type="info" %}
+version https://git-lfs.github.com/spec/v1
+oid sha256:48026768eb3ce1c7cabfd23eb43992eae528214bdfb309cb994cccdc210b36b9
+size 510

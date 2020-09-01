@@ -1,22 +1,3 @@
-{
-  "name"        : "@yaireo/validator",
-  "version"     : "3.3.4",
-  "homepage"    : "https://github.com/yairEO/validator",
-  "description" : "The Validator is cross-browser and will give you the power to use future-proof input types such as `tel`, `email`, `number`, `date`, `time`, `checkbox` and `url`",
-  "_npmUser"    : {
-    "name"  : "vsync",
-    "email" : "vsync.design@gmail.com"
-  },
-  "author" : {
-    "name"  : "Yair Even-Or",
-    "email" : "vsync.design@gmail.com"
-  },
-  "main" : "validator.js",
-  "repository" : {
-    "type" : "git",
-    "url"  : "git+https://github.com/yairEO/validator.git"
-  },
-  "bugs" : {
-    "url": "https://github.com/yaireo/validator/issues"
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:207af6db3fe3fd3210eb2ae6370dd5c97d7040063dee0fbef4cc82413be19ee7
+size 689

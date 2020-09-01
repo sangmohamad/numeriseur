@@ -1,29 +1,3 @@
-module('Data adapters - Base');
-
-var BaseData = require('select2/data/base');
-var $ = require('jquery');
-var Options = require('select2/options');
-
-var options = new Options({});
-
-test('current is required', function (assert) {
-  var data = new BaseData($('#qunit-fixture select'), options);
-
-  assert.throws(
-    function () {
-      data.current(function () {});
-    },
-    'current has no default implementation'
-  );
-});
-
-test('query is required', function (assert) {
-  var data = new BaseData($('#qunit-fixture select'), options);
-
-  assert.throws(
-    function () {
-      data.query({}, function () {});
-    },
-    'query has no default implementation'
-  );
-});
+version https://git-lfs.github.com/spec/v1
+oid sha256:0785cbfc1e00bf292f980a5131ed2c0fd757806ca9e86c8e9eed51d300bfc3b1
+size 667

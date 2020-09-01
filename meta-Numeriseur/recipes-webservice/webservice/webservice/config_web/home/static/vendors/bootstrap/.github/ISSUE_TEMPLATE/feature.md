@@ -1,9 +1,3 @@
-Before opening:
-
-- [Search for duplicate or closed issues](https://github.com/twbs/bootstrap/issues?utf8=%E2%9C%93&q=is%3Aissue)
-- Read the [contributing guidelines](https://github.com/twbs/bootstrap/blob/master/CONTRIBUTING.md)
-
-Feature requests must include:
-
-- As much detail as possible for what we should add and why it's important to Bootstrap
-- Relevant links to prior art, screenshots, or live demos whenever possible
+version https://git-lfs.github.com/spec/v1
+oid sha256:6c4c1f3dd6ec5a16511194a0db5d85e77df1a7440b7603d0d7ad0d65c17084ba
+size 426

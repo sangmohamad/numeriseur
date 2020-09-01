@@ -1,36 +1,3 @@
-define(function () {
-  // Khmer
-  return {
-    errorLoading: function () {
-      return 'មិនអាចទាញយកទិន្នន័យ';
-    },
-    inputTooLong: function (args) {
-      var overChars = args.input.length - args.maximum;
-
-      var message = 'សូមលុបចេញ  ' + overChars + ' អក្សរ';
-
-      return message;
-    },
-    inputTooShort: function (args) {
-      var remainingChars = args.minimum - args.input.length;
-
-      var message = 'សូមបញ្ចូល' + remainingChars + ' អក្សរ រឺ ច្រើនជាងនេះ';
-
-      return message;
-    },
-    loadingMore: function () {
-      return 'កំពុងទាញយកទិន្នន័យបន្ថែម...';
-    },
-    maximumSelected: function (args) {
-      var message = 'អ្នកអាចជ្រើសរើសបានតែ ' + args.maximum + ' ជម្រើសប៉ុណ្ណោះ';
-
-      return message;
-    },
-    noResults: function () {
-      return 'មិនមានលទ្ធផល';
-    },
-    searching: function () {
-      return 'កំពុងស្វែងរក...';
-    }
-  };
-});
+version https://git-lfs.github.com/spec/v1
+oid sha256:0c881dcb980e954b8d65d54d29b7339ad27748de3dc2c47da2fd255a3e7cd1d3
+size 1160

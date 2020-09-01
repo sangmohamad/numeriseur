@@ -1,14 +1,3 @@
-// Alerts
-
-@mixin alert-variant($background, $border, $text-color) {
-  background-color: $background;
-  border-color: $border;
-  color: $text-color;
-
-  hr {
-    border-top-color: darken($border, 5%);
-  }
-  .alert-link {
-    color: darken($text-color, 10%);
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:16f165cb79b8d222f79cfa2e9eb63d80afc00b73c5fc0720997734d389a29d6f
+size 263

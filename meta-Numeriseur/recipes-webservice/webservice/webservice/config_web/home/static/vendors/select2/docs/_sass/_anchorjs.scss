@@ -1,27 +1,3 @@
-// AnchorJS Styles
-
-.anchorjs-link {
-  color: inherit;
-  transition: all .16s linear;
-  text-decoration: none;
-
-  &:link,
-  &:visited {
-    text-decoration: none;
-    color: inherit;
-  }
-
-  @media (max-width: 480px) {
-    display: none;
-  }
-}
-
-*:hover > .anchorjs-link {
-  opacity: .5;
-  margin-left: -0.9em !important;
-}
-
-*:hover > .anchorjs-link:hover,
-.anchorjs-link:focus {
-  opacity: 1;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7193ea24dc59effd5345045611680f865bc07ac39a43d34e8156e678750b4026
+size 394

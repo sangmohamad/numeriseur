@@ -1,20 +1,3 @@
-from utils.Server import Server
-
-
-if __name__ == '__main__':
-
-
-    
-    try:
-        port = int("5551")
-    except ValueError:
-        raise ValueError('port value should be integer')
-
-    while True:
-        server = Server(port)
-        try:
-            server.setup()
-            server.handle_rtsp_requests()
-        except ConnectionError as e:
-            server.server_state = server.STATE.TEARDOWN
-            print(e)
+version https://git-lfs.github.com/spec/v1
+oid sha256:e726e2f6c77bef0eef4e0e9c64e0ad871a51b4c3df97e591273da9aab3260950
+size 427

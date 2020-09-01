@@ -1,15 +1,3 @@
-[Unit]
-Description=Numeriseur Systeme SEVAC
-After=multi-user.target
-
-[Service]
-
-Type=simple
-Restart=always
-RestartSec=1
-
-ExecStart=/usr/bin/python3  /usr/bin/numeriseur/stm32/cab-radio.py
-
-
-[Install]
-WantedBy=multi-user.target
+version https://git-lfs.github.com/spec/v1
+oid sha256:e0c9d860f19c38b560d9c8779fbd7e26a978fc36b0978df3ea8b0940e118a3cd
+size 227

@@ -1,17 +1,3 @@
-// package metadata file for Meteor.js
-
-Package.describe({
-  name: 'twbs:bootstrap', // https://atmospherejs.com/twbs/bootstrap
-  summary: 'The most popular front-end framework for developing responsive, mobile first projects on the web.',
-  version: '4.3.1',
-  git: 'https://github.com/twbs/bootstrap.git'
-});
-
-Package.onUse(function (api) {
-  api.versionsFrom('METEOR@1.0');
-  api.use('jquery', 'client');
-  api.addFiles([
-    'dist/css/bootstrap.css',
-    'dist/js/bootstrap.js'
-  ], 'client');
-});
+version https://git-lfs.github.com/spec/v1
+oid sha256:e85c3d9b12c17f55e7d506c03ba8266c9f5742f78beee14cb92c00596b3144ea
+size 502

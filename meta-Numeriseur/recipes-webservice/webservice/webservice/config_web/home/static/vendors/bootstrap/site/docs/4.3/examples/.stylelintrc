@@ -1,15 +1,3 @@
-{
-  "extends": [
-    "stylelint-config-twbs-bootstrap/css"
-  ],
-  "rules": {
-    "at-rule-no-vendor-prefix": null,
-    "comment-empty-line-before": null,
-    "media-feature-name-no-vendor-prefix": null,
-    "property-blacklist": null,
-    "property-no-vendor-prefix": null,
-    "selector-no-qualifying-type": null,
-    "selector-no-vendor-prefix": null,
-    "value-no-vendor-prefix": null
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5d28735e079f81766851dd70061cb60542f9564979c004bd6d049e7befa13310
+size 395

@@ -1,4 +1,3 @@
-bower_components
-node_modules
-libtests/browserify/node_modules
-libtests/browserify/bundle.js
+version https://git-lfs.github.com/spec/v1
+oid sha256:f10d19fe65a82092eb3cfa89c03245021f7d7a53699e401f699949a332a66f5f
+size 92

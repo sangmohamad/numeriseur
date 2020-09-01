@@ -1,26 +1,3 @@
-{
-  "env": {
-    "es6": false,
-    "jquery": true
-  },
-  "parserOptions": {
-    "ecmaVersion": 5,
-    "sourceType": "script"
-  },
-  "extends": "../.eslintrc.json",
-  "rules": {
-    // Best Practices
-    "no-magic-numbers": "off",
-    "vars-on-top": "off",
-
-    // Stylistic Issues
-    "spaced-comment": "off",
-
-    // ECMAScript 6
-    "no-var": "off",
-    "object-shorthand": "off",
-    "prefer-arrow-callback": "off",
-    "prefer-template": "off",
-    "prefer-rest-params": "off"
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6bd10834d8eb718ba949e79d25fa642f43923af681a8d98baaf184f9187bb0c5
+size 487

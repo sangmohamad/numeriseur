@@ -1,18 +1,3 @@
-- name: 100
-  hex: "#f8f9fa"
-- name: 200
-  hex: "#e9ecef"
-- name: 300
-  hex: "#dee2e6"
-- name: 400
-  hex: "#ced4da"
-- name: 500
-  hex: "#adb5bd"
-- name: 600
-  hex: "#868e96"
-- name: 700
-  hex: "#495057"
-- name: 800
-  hex: "#343a40"
-- name: 900
-  hex: "#212529"
+version https://git-lfs.github.com/spec/v1
+oid sha256:0b3dcb932b58caffe080dfe25f807e5260d4d19da9ccadc7c5fcfc224b3b3b09
+size 261

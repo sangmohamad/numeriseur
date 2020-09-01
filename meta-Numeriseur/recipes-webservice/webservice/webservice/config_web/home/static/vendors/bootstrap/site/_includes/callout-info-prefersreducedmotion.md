@@ -1,4 +1,3 @@
-{% capture callout %}
-The animation effect of this component is dependent on the `prefers-reduced-motion` media query. See the [reduced motion section of our accessibility documentation]({{ site.baseurl }}/docs/{{ site.docs_version }}/getting-started/accessibility/#reduced-motion).
-{% endcapture %}
-{% include callout.html content=callout type="info" %}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6b81ed8002af56992121ac756088d00e0b38d2ff3eeeb20a0407af1b0aeb827d
+size 355

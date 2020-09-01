@@ -1,3 +1,3 @@
-/*! Select2 4.0.3 | https://github.com/select2/select2/blob/master/LICENSE.md */
-
-(function(){if(jQuery&&jQuery.fn&&jQuery.fn.select2&&jQuery.fn.select2.amd)var e=jQuery.fn.select2.amd;return e.define("select2/i18n/hu",[],function(){return{inputTooLong:function(e){var t=e.input.length-e.maximum;return"Túl hosszú. "+t+" karakterrel több, mint kellene."},inputTooShort:function(e){var t=e.minimum-e.input.length;return"Túl rövid. Még "+t+" karakter hiányzik."},loadingMore:function(){return"Töltés…"},maximumSelected:function(e){return"Csak "+e.maximum+" elemet lehet kiválasztani."},noResults:function(){return"Nincs találat."},searching:function(){return"Keresés…"}}}),{define:e.define,require:e.require}})();
+version https://git-lfs.github.com/spec/v1
+oid sha256:3a20f3c108fe72e5c6b7734d0d0c35c0dda368e8e86f8b833d4936994f03e41b
+size 727

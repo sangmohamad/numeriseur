@@ -1,1 +1,3 @@
-!function(e,o){"function"==typeof define&&define.amd?define("pnotify.tooltip",["jquery","pnotify"],o):"object"==typeof exports&&"undefined"!=typeof module?module.exports=o(require("jquery"),require("./pnotify")):o(e.jQuery,e.PNotify)}(this,function(e,o){});
+version https://git-lfs.github.com/spec/v1
+oid sha256:634aed849d1848811ada32f1c8f4811d36af56df1606df5928de9820f4f7a65f
+size 257

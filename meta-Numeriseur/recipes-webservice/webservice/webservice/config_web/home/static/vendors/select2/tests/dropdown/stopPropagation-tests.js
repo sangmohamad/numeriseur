@@ -1,33 +1,3 @@
-module('Dropdown - Stoping event propagation');
-
-var Dropdown = require('select2/dropdown');
-var StopPropagation = require('select2/dropdown/stopPropagation');
-
-var $ = require('jquery');
-var Options = require('select2/options');
-var Utils = require('select2/utils');
-
-var CustomDropdown = Utils.Decorate(Dropdown, StopPropagation);
-
-var options = new Options();
-
-test('click event does not propagate', function (assert) {
-  assert.expect(1);
-
-  var $container = $('#qunit-fixture .event-container');
-  var container = new MockContainer();
-
-  var dropdown = new CustomDropdown($('#qunit-fixture select'), options);
-
-  var $dropdown = dropdown.render();
-  dropdown.bind(container, $container);
-
-  $container.append($dropdown);
-  $container.on('click', function () {
-    assert.ok(false, 'The click event should have been stopped');
-  });
-
-  $dropdown.trigger('click');
-
-  assert.ok(true, 'Something went wrong if this failed');
-});
+version https://git-lfs.github.com/spec/v1
+oid sha256:acea4ff5b9c0e83e6e999bac87ba8f0ae0e6b91f5a1db1caf289a4979d89cc34
+size 931

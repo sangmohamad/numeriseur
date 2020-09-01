@@ -1,9 +1,3 @@
-
-OPTIONS = "OPTIONS"
-DESCRIBE = "DESCRIBE"
-SETUP = "SETUP"
-TEARDOWN = "TEARDOWN"
-PLAY = "PLAY"
-PAUSE = "PAUSE"
-GET_PARAMETER = "GET_PARAMETER"
-RESPONSE = 'RESPONSE'
+version https://git-lfs.github.com/spec/v1
+oid sha256:7a9e51ffe728083c35ddf29f72d631e8cd7ac83ba947bf2eb4dc9aa35ba7c738
+size 164

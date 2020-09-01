@@ -1,30 +1,3 @@
-define(function () {
-  // Indonesian
-  return {
-    errorLoading: function () {
-      return 'Data tidak boleh diambil.';
-    },
-    inputTooLong: function (args) {
-      var overChars = args.input.length - args.maximum;
-
-      return 'Hapuskan ' + overChars + ' huruf';
-    },
-    inputTooShort: function (args) {
-      var remainingChars = args.minimum - args.input.length;
-
-      return 'Masukkan ' + remainingChars + ' huruf lagi';
-    },
-    loadingMore: function () {
-      return 'Mengambil data…';
-    },
-    maximumSelected: function (args) {
-      return 'Anda hanya dapat memilih ' + args.maximum + ' pilihan';
-    },
-    noResults: function () {
-      return 'Tidak ada data yang sesuai';
-    },
-    searching: function () {
-      return 'Mencari…';
-    }
-  };
-});
+version https://git-lfs.github.com/spec/v1
+oid sha256:087872f0422c55507e46d8e62cce4bc2cd09963bf451038686684103789b0f06
+size 781

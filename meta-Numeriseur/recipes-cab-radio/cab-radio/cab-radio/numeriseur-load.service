@@ -1,0 +1,15 @@
+[Unit]
+Description=Numeriseur Systeme SEVAC
+After=multi-user.target
+
+[Service]
+
+Type=simple
+Restart=always
+RestartSec=1
+
+ExecStart=/usr/bin/python3  /usr/bin/numeriseur/stm32/cab-radio.py
+
+
+[Install]
+WantedBy=multi-user.target

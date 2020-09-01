@@ -1,0 +1,70 @@
+{% extends "home/base.html" %}
+{% block title %}Debugging{% endblock %}
+{% block content %}
+
+              
+                <div class="x_panel">
+       
+                        &nbsp;
+                        <pre id="test1"> </pre> 
+                       
+            
+                </div>
+
+
+            
+          
+       
+
+{% endblock %}
+
+
+{% block javascript %}
+<script>
+
+
+
+
+
+$(function() {
+    $('#test1').terminal(function(command, term) {
+
+
+        $.ajax({
+        type : "POST", 
+        url: "debug", /* django ajax posting url  */
+        data: {command: command,                           
+        csrfmiddlewaretoken: '{{ csrf_token }}',
+        dataType: "json",},
+                                       
+        success: function(data){
+                                        
+                term.echo(data);
+                },
+                failure: function() {
+                                           
+                }
+
+
+        });
+
+
+
+
+    }, {
+        greetings: 'Numeriseur',
+        onBlur: function() {
+            return false;
+        }
+    });
+});
+
+</script>
+{% endblock %}
+
+
+
+
+
+
+        

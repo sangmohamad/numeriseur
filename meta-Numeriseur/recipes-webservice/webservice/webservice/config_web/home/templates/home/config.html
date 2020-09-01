@@ -1,0 +1,153 @@
+{% extends "home/base.html" %}
+{% block title %}configuration{% endblock %}
+{% block content %}
+
+<div class="row">
+ <div class="col-md-12 col-sm-12  ">
+                <div class="x_panel">
+                  <div class="x_title">
+                    <h2>CONFIGURATION <small>Les parametres a configurer</small></h2>
+                    <ul class="nav navbar-right panel_toolbox">
+                      <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                      </li>
+                      <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                       
+                      </li>
+                      <li><a class="close-link"><i class="fa fa-close"></i></a>
+                      </li>
+                    </ul>
+                    <div class="clearfix"></div>
+                  </div>
+                  <div class="x_content">
+                    <br />
+                    <form class="form-horizontal form-label-left"  id="post-form">
+
+                      <div class="item form-group row ">
+                        <label for="middle-name" class="col-form-label col-md-3 col-sm-3 label-align">Adresse du serveur RTP</label>
+                        <div class="col-md-6 col-sm-9 ">
+                          <input type="url" class="form-control" id="RTP_HOST" >
+                        </div>
+                      </div>
+
+                      <div class="item form-group row">
+                        <label for="middle-name" class="col-form-label col-md-3 col-sm-3 label-align">Adresse du serveur HTTP</label>
+                        <div class="col-md-6 col-sm-6 ">
+                          <input  class="form-control" type="url" id="HTTP_HOST">
+                        </div>
+                      </div>
+                     
+                     
+                      <div class="form-group row">
+                        <label for="middle-name" class="col-form-label col-md-3 col-sm-3 label-align">Audio Format</label>
+                        <div class="col-md-6 col-sm-9 ">
+                          <select class="select2_single form-control" tabindex="-1" id="AUDIO_FORMAT">
+                            <option></option>
+                            <option value="mp3">MP3</option>
+                            <option value="wav">WAV</option>
+                            <option value="aac">AAC</option>
+                           
+                          </select>
+                        </div>
+                      </div>
+                      
+                       <div class="form-group row">
+
+
+
+
+
+
+
+                        <label for="middle-name" class="col-form-label col-md-3 col-sm-3 label-align">Audio Types</label>
+                       <div class="col-md-6 col-sm-6 ">
+
+                        <div class="btn-group btn-group-justified" data-toggle="buttons">
+                       
+                        <label class="btn btn-primary">
+                          <input type="radio" class="sr-only" id="radio1" name="CHANNELS" value="2">
+                          <span class="docs-tooltip" data-toggle="tooltip" title="Stereo">
+                           2
+                          </span>
+                        </label>
+                        <label class="btn btn-primary">
+                          <input type="radio" class="sr-only" id="radio22" name="CHANNELS" value="1">
+                          <span class="docs-tooltip" data-toggle="tooltip" title="Mono">
+                            1
+                          </span>
+                        </label>
+
+                        
+                      </div>
+
+                        </div>
+
+                      </div>
+
+                      <div class="ln_solid"></div>
+                      <div class="form-group">
+                        <div class="col-md-9 col-sm-9  offset-md-3">
+                          <button type="button" class="btn btn-primary">Cancel</button>
+                          <button type="reset" class="btn btn-primary">Reset</button>
+                          <button type="submit" class="btn btn-success">Submit</button>
+                        </div>
+                      </div>
+
+                    </form>
+                  </div>
+                </div>
+ </div>
+ </div>
+{% endblock %}
+
+{% block javascript %}
+<script>
+
+$('#post-form').on('submit', function(event){
+    event.preventDefault();
+    create_post();
+});
+
+function create_post() {
+    $.ajax({
+        url : "Configuration/", // the endpoint
+        type : "POST", // http method
+        data : { 
+
+          CHANNELS : $('#CHANNELS').val(),
+          AUDIO_FORMAT : $('#AUDIO_FORMAT').val(),
+          HTTP_HOST : $('#HTTP_HOST').val(),
+          RTP_HOST : $('#RTP_HOST').val(),
+          csrfmiddlewaretoken: '{{ csrf_token }}',
+          dataType: "json",
+         },
+
+        // handle a successful response
+        success : function(json) {
+
+          new PNotify({
+                      title: 'Regular Success',
+                      text: json.msg,
+                      type: 'success',
+                      styling: 'bootstrap3'
+                });
+            
+        },
+
+        // handle a non-successful response
+        error : function(xhr,errmsg,err) {
+            new PNotify({
+                        title: 'Oh No!',
+                        text: errmsg,
+                        type: 'error',
+                        styling: 'bootstrap3'
+                      });
+        }
+    });
+};
+
+
+</script>
+{% endblock %}
+
+

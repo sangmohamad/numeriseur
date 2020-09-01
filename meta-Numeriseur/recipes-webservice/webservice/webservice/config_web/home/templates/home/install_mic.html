@@ -1,0 +1,146 @@
+{% extends "home/base.html" %}
+{% block title %}configuration{% endblock %}
+{% block content %}
+
+    <div class="row">
+                <div class="x_panel">
+                  <div class="x_title">
+                    <h2>Microphone <small>Installation du microphone</small></h2>
+                    <ul class="nav navbar-right panel_toolbox">
+                      <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                      </li>
+                      <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Settings 1</a>
+                            <a class="dropdown-item" href="#">Settings 2</a>
+                          </div>
+                      </li>
+                      <li><a class="close-link"><i class="fa fa-close"></i></a>
+                      </li>
+                    </ul>
+                    <div class="clearfix"></div>
+                  </div>
+                  <div class="x_content">
+                    <br />
+                    <form class="form-label-left input_mask" id="form">
+                      <div class="form-group row">
+                      <div class="col-md-6 col-sm-6  form-group has-feedback">
+                        <input type="text" class="form-control has-feedback-left" id="Name" placeholder="Name">
+                        <span class="form-control-feedback left" aria-hidden="true"></span>
+                      </div>
+
+                      <div class="col-md-6 col-sm-6  form-group has-feedback">
+                        <input type="text" class="form-control" id="Rate" placeholder="Default Sample Rate">
+                        <span class="form-control-feedback right" aria-hidden="true"></span>
+                      </div>
+
+                      </div>
+                      
+
+
+                      <div class="form-group row">
+                        <label class="col-form-label col-md-3 col-sm-3 ">Max Input Channels</label>
+                        <div class="col-md-9 col-sm-9 ">
+                          <input type="text" class="form-control" disabled="disabled" placeholder="Disabled Input" id="CHANNELS">
+                        </div>
+                      </div>
+
+                      <div class="ln_solid"></div>
+
+
+                      <div class="form-group row">
+                        <div class="col-md-9 col-sm-9  offset-md-3">
+                          <button type="button" class="btn btn-primary">Cancel</button>
+                          <button class="btn btn-primary" type="reset">Reset</button>
+                          <button type="submit" class="btn btn-success">Submit</button>
+                        </div>
+                      </div>
+
+                    </form>
+                  </div>
+                </div>
+
+
+
+
+            
+
+
+            </div>
+
+{% endblock %}
+
+{% block javascript %}
+
+<script>
+
+$('#form').on('submit', function(event){
+    event.preventDefault();
+    create_post();
+});
+
+window.onload = updateform("form");
+function updateform(id){
+    $.ajax({
+          type: 'GET',
+          url: "install_mic/",
+          success: function(data) {
+            document.getElementById('Name').value=data.name
+            document.getElementById('CHANNELS').value=data.maxInputChannels
+            document.getElementById('Rate').value=data.defaultSampleRate
+            //alert(data.name);
+          },
+
+          error: function(data) { // if error occured
+                new PNotify({
+                        text: "veuillez connecter le microphone et actualiser la fenêtre",
+                        type: 'error',
+                        styling: 'bootstrap3'
+                      });
+              },
+
+            }); 
+  }
+
+function create_post() {
+    $.ajax({
+        url : "install_mic/", // the endpoint
+        type : "POST", // http method
+        data : { 
+
+          CHANNELS : $('#CHANNELS').val(),
+          Rate : $('#Rate').val(),
+          csrfmiddlewaretoken: '{{ csrf_token }}',
+          dataType: "json",
+         },
+
+        // handle a successful response
+        success : function(json) {
+          alert(json.msg);
+
+          new PNotify({
+                      text: json.msg,
+                      type: 'success',
+                      styling: 'bootstrap3'
+                });
+            
+        },
+
+        // handle a non-successful response
+        error : function(xhr,errmsg,err) {
+            new PNotify({
+                        text: errmsg,
+                        type: 'error',
+                        styling: 'bootstrap3'
+                      });
+        }
+    });
+};
+
+</script>
+
+
+{% endblock %}
+
+
